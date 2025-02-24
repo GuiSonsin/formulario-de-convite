@@ -49,13 +49,26 @@
                                     <input type="datetime-local" name="end" id="end">
                                 </div>
                             
-                                <div>
+                                <div class="radio-type">
                                     <label for="type">Tipo</label>
 
-                                    <div>
-                                         
+                                    <div class="segmented-control">
+                                        <div>
+                                            <input type="radio" name="type" id="presencial" value="Presencial" checked>
+                                            <label for="presencial">
+                                                <img src="assets/icons/building-2.svg">
+                                                Presencial  
+                                            </label>
+                                        </div>
+                                        
+                                        <div>
+                                            <input type="radio" name="type" id="online" value="Online">
+                                            <label for="online">
+                                                <img src="assets/icons/video.svg" alt="Ícone Online">
+                                                Online
+                                            </label>
+                                        </div>
                                     </div>
-                                    
                                 </div>
 
                                 <div>
@@ -63,6 +76,7 @@
                                     <input type="text" name="location" id="location" placeholder="Link ou endereço">
                                 </div>
                             </div>
+                            
                             
                         </fieldset>
                     </form>  
