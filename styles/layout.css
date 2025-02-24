@@ -1,0 +1,47 @@
+body{
+    background-color: var(--shape-background);
+
+    .app{
+        padding: 1.25rem;
+        display: grid; 
+        grid-template-columns: 33.3% 67.7%;
+        gap: 1.25rem;
+    }
+}
+
+aside{ 
+    position: relative;
+    display: flex;
+
+    .header{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+        padding: 2rem;
+
+        gap: .50rem;
+    }
+
+    h1{ 
+        color: var(--pink);
+        font: var(--logo);
+    }
+
+    p{
+        color: var(--text-heading);
+        font: var(--body-md);
+    }
+
+    img{ 
+        width: 2.875rem;
+        height: 3rem;
+    }
+
+    .background-image{   
+        width: 100%;
+        height: 100vh;
+        border-radius: .75rem;
+    }
+}
