@@ -32,4 +32,18 @@
 
     --text-body: #C8CDD0;
     --text-heading: #F9F9F9;
+
+    --font-baloo: "Baloo 2", serif;
+    --font-leckerli: "Leckerli One", serif;
+    --font-open-sans: "Open Sans", sans-serif;
+
+    --logo: 400 2.5rem var(--font-leckerli);
+
+    --heading-md: 700 1.75rem var(--font-baloo);
+    --heading-sm: 700 1.125rem var(--font-baloo);
+
+    --body-md: 500 1rem var(--font-open-sans);
+    --body-sm: 500 0.875rem var(--font-open-sans);
+    --body-xs: 500 0.75rem var(--font-open-sans);
+
 }
