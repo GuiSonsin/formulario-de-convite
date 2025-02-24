@@ -21,9 +21,55 @@
         </aside>
 
         <main>
-            <div>
-                
+            <div class="main-container">
+                <div class="about-event">
+
+                    <h2>Crie seu convite</h2>
+    
+                    <form method="post" enctype="multipart/form-data">
+                        <fieldset>
+                            <legend class="header">
+                                <img src="assets/icons/calendar.svg" alt="ícone de calendário">
+                                <p>Sobre o evento</p>
+                            </legend>
+
+                            <div class="flex-1">
+                                <label for="name">Título</label>
+                                <input placeholder="Nome do evento" type="text" name="name" id="name">
+                            </div>
+                            
+                            <div class="grid">
+                                <div>
+                                    <label for="begin">Início</label>
+                                    <input type="datetime-local" id="begin" name="begin">
+                                </div>
+                            
+                                <div>
+                                    <label for="end">Fim</label>
+                                    <input type="datetime-local" name="end" id="end">
+                                </div>
+                            
+                                <div>
+                                    <label for="type">Tipo</label>
+
+                                    <div>
+                                         
+                                    </div>
+                                    
+                                </div>
+
+                                <div>
+                                    <label for="location">Local</label>
+                                    <input type="text" name="location" id="location" placeholder="Link ou endereço">
+                                </div>
+                            </div>
+                            
+                        </fieldset>
+                    </form>  
+    
+                </div>
             </div>
+            
         </main>
     </div>
 </body>

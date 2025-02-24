@@ -1,11 +1,15 @@
+@import url(global.css);
+
 body{
     background-color: var(--shape-background);
 
     .app{
         padding: 1.25rem;
         display: grid; 
-        grid-template-columns: 33.3% 67.7%;
+        grid-template-columns: 34% 64%;
         gap: 1.25rem;
+        overflow: hidden;
+        
     }
 }
 
@@ -20,7 +24,7 @@ aside{
         align-items: start;
 
         padding: 2rem;
-
+        
         gap: .50rem;
     }
 
@@ -43,5 +47,29 @@ aside{
         width: 100%;
         height: 100vh;
         border-radius: .75rem;
+    }
+}
+
+main{
+    background-color: var(--shape-body);
+    border-radius: 0.75rem;
+    padding: 5rem 8.125rem;
+    gap: 3rem;
+    
+    & .about-event{ 
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        h2{
+            font: var(--heading-md) ;
+            color: var(--text-heading);
+        }
+
+        p{
+            color: var(--text-heading);
+            font: var(--heading-sm);
+        }
+
     }
 }

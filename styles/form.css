@@ -1,0 +1,47 @@
+form{ 
+
+    legend{
+        border: none;
+        display: flex;
+        gap: 0.75rem;
+        padding-bottom: 1.5rem; 
+    }
+
+    fieldset{
+        border: none;
+        display: grid; 
+        gap: 1rem;
+    }
+
+    label, span{
+        display: flex;
+        font: var(--body-sm);
+        color: var(--text-body);
+        padding-bottom: .75rem;
+    }
+
+    input{
+        appearance: none;
+        padding: 0.8125rem 1rem;
+        width: 100%;
+        border-radius: 0.5rem;
+        border: 2px solid transparent;
+
+        outline: 1px solid var(--input-placeholder);
+        
+        background-color: var(--input-base);
+        
+        font: var(--body-md);    
+
+        color: var(--input-placeholder);
+        
+    }
+    
+    input::placeholder {
+        color: var(--input-placeholder);  
+    }
+    
+    input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+}
