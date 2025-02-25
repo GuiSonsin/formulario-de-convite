@@ -1,0 +1,99 @@
+.colors-section label .brand-light{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--brand-light);
+    cursor: pointer;  
+}
+
+.colors-section label .navy{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--navy);
+    cursor: pointer;
+}
+
+.colors-section label .purple{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--purple);
+    cursor: pointer;
+}
+
+
+.colors-section label .fuschia{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--fuschia);
+    cursor: pointer;
+}
+
+.colors-section label .pink{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--pink);
+    cursor: pointer;
+}
+
+.colors-section label .danger{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--danger);
+    cursor: pointer;
+}
+
+.colors-section label .orange{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.colors-section label .yellow{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+.colors-section label .lime{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--lime);
+    cursor: pointer;
+}
+
+.colors-section label .green{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--green);
+    cursor: pointer;
+}
+
+.colors-section label .cyan{
+    border: 5px solid var(--shape-button);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    background-color: var(--cyan);
+    cursor: pointer;
+}

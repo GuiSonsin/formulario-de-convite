@@ -22,11 +22,13 @@
 
         <main>
             <div class="main-container">
-                <div class="about-event">
 
-                    <h2>Crie seu convite</h2>
-    
-                    <form method="post" enctype="multipart/form-data">
+                <h2>Crie seu convite</h2>
+
+                <form method="post" enctype="multipart/form-data">
+                    
+                    <div class="about-event">
+
                         <fieldset>
                             <legend class="header">
                                 <img src="assets/icons/calendar.svg" alt="ícone de calendário">
@@ -53,7 +55,7 @@
                                     <label for="type">Tipo</label>
 
                                     <div class="segmented-control">
-                                        <div >
+                                        <div>
                                             <input type="radio" name="meeting-type" id="in-person" value="in-person" checked>
                                             <label for="in-person">
                                                 <div class="img-face-to-face"></div>
@@ -82,9 +84,121 @@
                                 <textarea name="description" id="description" cols="64" rows="6" placeholder="Escreva sobre os detalhes do evento"></textarea>
                             </div>
                         </fieldset>
-                    </form>  
-    
-                </div>
+                    </div>
+
+                    <div class="personalization">
+                        <fieldset>
+                            <legend>
+                                <img src="assets/icons/paintbrush-vertical.svg" alt="ícone de pincel">
+                                <p>Personalização</p>
+                            </legend>
+
+                            <div class="radio-type">
+
+                                <label for="colors">Cor principal</label> 
+                                
+                                <div class="colors-section">
+
+                                    <div>
+                                        <input type="radio" name="color" id="brand-light" value="brand-light" checked>
+                                        
+                                        <label for="brand-light">
+                                            <div class="brand-light"></div>
+                                        </label>
+                                    </div>
+                                    
+                                    <div>
+                                        <input type="radio" name="color" id="navy" value="navy">
+                                        
+                                        <label for="navy">
+                                            <div class="navy"></div>
+                                        </label>
+                                    </div>
+            
+
+                                    <div>
+                                        <input type="radio" name="color" id="purple" value="purple">
+                                        
+                                        <label for="purple">
+                                            <div class="purple"></div>
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="color" id="fuschia" value="fuschia">
+                                        
+                                        <label for="fuschia">
+                                            <div class="fuschia"></div>
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="color" id="pink" value="pink">
+                                        
+                                        <label for="pink">
+                                            <div class="pink"></div>
+                                        </label>
+                                    </div>
+
+
+                                    <div>
+                                        <input type="radio" name="color" id="danger" value="danger">
+                                        
+                                        <label for="danger">
+                                            <div class="danger"></div>
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="color" id="orange" value="orange">
+                                        
+                                        <label for="orange">
+                                            <div class="orange"></div>
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="color" id="yellow" value="yellow">
+                                        
+                                        <label for="yellow">
+                                            <div class="yellow"></div>
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="color" id="lime" value="lime">
+                                        
+                                        <label for="lime">
+                                            <div class="lime"></div>
+                                        </label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" name="color" id="green" value="green">
+                                        
+                                        <label for="green">
+                                            <div class="green"></div>
+                                        </label>
+                                    </div>
+
+
+                                    <div>
+                                        <input type="radio" name="color" id="cyan" value="cyan">
+                                        
+                                        <label for="cyan">
+                                            <div class="cyan"></div>
+                                        </label>
+                                    </div>
+
+                                </div>
+                                
+
+                            </div>
+
+                        </fieldset>
+                    </div>
+                    
+                </form>  
             </div>
             
         </main>

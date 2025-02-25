@@ -60,20 +60,35 @@ main{
     gap: 3rem;
     overflow: auto;
 
+
+    .main-container h2{
+        font: var(--heading-md) ;
+        color: var(--text-heading);
+    }
+
+     
+
     & .about-event{ 
         display: flex;
+        padding-top: 2.5rem;
         flex-direction: column;
         gap: 2.5rem;
-
-        h2{
-            font: var(--heading-md) ;
-            color: var(--text-heading);
-        }
 
         p{
             color: var(--text-heading);
             font: var(--heading-sm);
         }
-
     }
+
+    & .personalization{
+        padding-top: 3rem;
+       
+
+        p{
+            color: var(--text-heading);
+            font: var(--heading-sm);
+        }
+    }
+
+    
 }
