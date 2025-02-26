@@ -16,9 +16,10 @@ form{
         display: flex;
         font: var(--body-sm);
         color: var(--text-body);
-        padding-bottom: .75rem;
     }
-
+.about-event label{
+    padding-bottom: 0.75rem;
+}
     .segmented-control div:first-child input:checked + label .img-face-to-face{
         background-image: url(../assets/icons/building-2.svg);
     }
@@ -87,7 +88,10 @@ form{
 }
 
 .colors-section{
-    display: flex; 
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: .75rem;
 }
 
@@ -126,6 +130,7 @@ form{
     padding-top: 1rem;
     font: var(--body-md);
     color: var(--input-placeholder);
+    width: 100%;
 }
 
 textarea::placeholder {
@@ -133,4 +138,44 @@ textarea::placeholder {
     color: var(--input-placeholder);
 }
 
+.card input{
+    display: none;
+}
+
+.cards{
+    display: grid; 
+    gap: 0.5rem;
+    grid-template-columns: repeat(4, minmax(8.375rem, 1fr));
+    padding-top: 1rem;
+
+    .card label{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--shape-button);
+        
+        border-radius: .25rem;
+        cursor: pointer;
+        border: 1px solid var(--input-stroke);
+
+        p{
+            font: var(--body-sm);
+            color: var(--text-heading); 
+            width: 100%;
+            text-align: center;
+            padding: .50rem ;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            padding: .25rem; 
+            border-radius: 0.50rem;   
+        }
+    }
+}
+
+.card input:checked + label { 
+    outline: 2px solid var(--brand-light); 
+}
 
