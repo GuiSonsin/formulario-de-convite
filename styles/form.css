@@ -106,7 +106,7 @@ form{
     display: none;
 }
 
-.style-card input{
+input[type="checkbox"] {
     display: none;
 }
 
@@ -201,6 +201,7 @@ textarea::placeholder {
         font: var(--body-sm); 
         display: flex;
         align-items: center;
+        position: relative;
     }
 
     p{
@@ -226,6 +227,7 @@ textarea::placeholder {
         }
 
         label{    
+            position: relative;
             height: 2rem;
             width: 4rem;
             border: 1px solid var(--input-stroke);
@@ -241,16 +243,33 @@ textarea::placeholder {
         }
 
         .circle-in-label{
+            position: absolute;
             display: flex;
             border-radius: 99px;
             margin: .20rem;
+            margin-left: .18rem;
             background-color: var(--input-stroke); 
             height: 1.5rem;
             width: 1.5rem;
         }
-    }
-    
-    
+
+        input[type="checkbox"]:checked + label .circle-in-label {
+            transform: translateX(2rem); 
+            background-color: var(--text-heading);  
+        }
+        
+        input[type="checkbox"]:checked + label {
+            background-color: var(--brand-light); 
+        }
+
+        span::before {
+            content: "Escuro";  
+        }
+
+        input[type="checkbox"]:checked + label + span::before {
+            content: "Claro";  
+        }
+    } 
 }
 
 
