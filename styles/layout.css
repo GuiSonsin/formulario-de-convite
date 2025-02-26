@@ -74,7 +74,7 @@ main{
         flex-direction: column;
         gap: 2.5rem;
 
-        p{
+        h3{
             color: var(--text-heading);
             font: var(--heading-sm);
         }
@@ -84,7 +84,7 @@ main{
         padding-top: 3rem;
        
 
-        p{
+        h3{
             color: var(--text-heading);
             font: var(--heading-sm);
         }

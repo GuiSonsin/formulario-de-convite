@@ -1,4 +1,5 @@
 form{ 
+
     legend{
         border: none;
         display: flex;
@@ -17,9 +18,11 @@ form{
         font: var(--body-sm);
         color: var(--text-body);
     }
-.about-event label{
-    padding-bottom: 0.75rem;
-}
+
+    .about-event label{
+        padding-bottom: 0.75rem;
+    }
+
     .segmented-control div:first-child input:checked + label .img-face-to-face{
         background-image: url(../assets/icons/building-2.svg);
     }
@@ -43,11 +46,11 @@ form{
 
         color: var(--input-placeholder);
     }
-    
+
     input::placeholder {
         color: var(--input-placeholder);  
     }
-    
+
     input[type="datetime-local"]::-webkit-calendar-picker-indicator {
         display: none;
     }
@@ -99,6 +102,17 @@ form{
     display: none;
 }
 
+.card input{
+    display: none;
+}
+
+.style-card input{
+    display: none;
+}
+
+.style-card label{
+    padding-bottom: 0.75rem;
+}
 .segmented-control label {  
     display: flex;
     justify-content: center;
@@ -138,9 +152,7 @@ textarea::placeholder {
     color: var(--input-placeholder);
 }
 
-.card input{
-    display: none;
-}
+
 
 .cards{
     display: grid; 
@@ -158,24 +170,89 @@ textarea::placeholder {
         cursor: pointer;
         border: 1px solid var(--input-stroke);
 
-        p{
-            font: var(--body-sm);
-            color: var(--text-heading); 
-            width: 100%;
-            text-align: center;
-            padding: .50rem ;
-        }
+            p{
+                font: var(--body-sm);
+                color: var(--text-heading); 
+                width: 100%;
+                text-align: center;
+                padding: .50rem ;
+            }
 
-        img{
-            width: 100%;
-            height: 100%;
-            padding: .25rem; 
-            border-radius: 0.50rem;   
-        }
+            img{
+                width: 100%;
+                height: 100%;
+                padding: .25rem; 
+                border-radius: 0.50rem;   
+            }
     }
 }
 
 .card input:checked + label { 
     outline: 2px solid var(--brand-light); 
 }
+
+.style-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+
+    span{
+        color: var(--text-heading);
+        font: var(--body-sm); 
+        display: flex;
+        align-items: center;
+    }
+
+    p{
+        color: var(--text-body);
+        font: var(--body-sm); 
+    }
+
+    & > div:first-child{
+        grid-column-start: 1;
+        grid-column-end: 2; 
+        
+    }
+
+    & > div:last-child{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .theme {
+        
+        p + div{
+            padding-top: .75rem;
+        }
+
+        label{    
+            height: 2rem;
+            width: 4rem;
+            border: 1px solid var(--input-stroke);
+            border-radius: 9999px;
+            background-color: var(--input-base);
+            cursor: pointer;
+        }
+
+        div{
+            display: flex;
+            gap: .75rem;
+            width: 100%;
+        }
+
+        .circle-in-label{
+            display: flex;
+            border-radius: 99px;
+            margin: .20rem;
+            background-color: var(--input-stroke); 
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+    }
+    
+    
+}
+
+
+
 
