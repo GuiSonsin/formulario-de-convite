@@ -106,7 +106,7 @@ form{
     display: none;
 }
 
-input[type="checkbox"] {
+.style-card input {
     display: none;
 }
 
@@ -270,6 +270,50 @@ textarea::placeholder {
             content: "Claro";  
         }
     } 
+
+    .photo{
+        position: relative; 
+        div{
+            display: flex;
+            padding-top: 0.75rem;
+            gap: 1rem;
+            align-items: center;
+
+             
+        }
+
+        label + span{
+            color: var(--input-placeholder);
+        }
+
+        label{
+            display: flex;
+            background-color: var(--shape-button); 
+            border-radius: .8rem;
+            gap: .50rem;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding: 0.75rem;
+        }
+
+        
+        .img-photo{ 
+            background-image: url(../assets/icons/upload.svg);
+            height: 1rem;
+            width: 1rem;
+        }
+
+        p{
+            font: var(--body-sm);
+            color: var(--text-body);
+        }
+
+        label + input[type="file"]{
+            font: var(--body-md);
+            color: var(--text-body);
+        }
+    }
 }
 
 
