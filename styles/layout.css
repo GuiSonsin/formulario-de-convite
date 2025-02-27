@@ -84,11 +84,12 @@ main{
         padding-top: 3rem;
        
 
-        h3{
-            color: var(--text-heading);
-            font: var(--heading-sm);
-        }
+        
     }
 
+    h3{
+        color: var(--text-heading);
+        font: var(--heading-sm);
+    }
     
 }

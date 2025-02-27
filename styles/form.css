@@ -330,5 +330,53 @@ textarea::placeholder {
             font: var(--body-xs);
         } 
     }
+}
 
+.contact{
+    legend{
+        padding-top: 3rem;
+    }
+    
+
+    .info-contact{
+        display: flex;
+        flex-direction: column;
+        gap: .75rem;
+
+        input:valid + .error {
+            display: none;
+        }
+    }
+
+    .error{
+        display:  flex;
+        gap: .50rem;
+        
+        span{
+            color: var(--danger);
+            font: var(--body-xs);
+        }
+        
+    }
+    
+    .info-contact > input:placeholder-shown {
+        outline: 1px solid var(--danger);        
+    }
+    
+}
+
+.mail-phone{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(17rem, 1fr));
+    gap: 1rem;
+     
+    label{
+        padding-bottom: .75rem;
+    }
+}
+
+.line{
+    padding-top: 3rem;
+    border-bottom: 1px solid var(--input-stroke);
+    width: 100%;
 }
