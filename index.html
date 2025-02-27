@@ -309,14 +309,13 @@
                                 <div class="photo">
                                     <p>Foto de capa</p>
                                     <div>
-                                        <input type="file" name="photo" id="photo"> 
+                                        <input type="file" name="photo" id="photo" onchange="mostrarNomeArquivo()"> 
                                         <label for="photo">
                                             <div class="img-photo"></div>
                                             <strong>Selecionar</strong>
                                         </label>
-                                        <span>Nenhum arquivo selecionado</span>
+                                        <span id="nome-arquivo">Nenhum arquivo selecionado</span>
                                     </div>
-                                    
                                 </div>
                             </div>
                         </fieldset>
@@ -327,6 +326,6 @@
             
         </main>
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

@@ -106,13 +106,14 @@ form{
     display: none;
 }
 
-.style-card input {
+.style-card input{
     display: none;
 }
 
 .style-card label{
     padding-bottom: 0.75rem;
 }
+
 .segmented-control label {  
     display: flex;
     justify-content: center;
