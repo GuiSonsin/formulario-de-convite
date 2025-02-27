@@ -308,18 +308,22 @@
                                 </div>
                                 <div class="photo">
                                     <p>Foto de capa</p>
+
+                                    <input  type="file" name="photo" id="photo" onchange="mostrarNomeArquivo(); validarTipoArquivo()"  accept="image/*" required> 
+
                                     <div class="cover-photo">
-                                        <input type="file" name="photo" id="photo" onchange="mostrarNomeArquivo()"> 
                                         <label for="photo">
                                             <div class="img-photo"></div>
                                             <strong>Selecionar</strong>
                                         </label>
-                                        <span id="nome-arquivo">Nenhum arquivo selecionado</span>  
+                                        <span id="nome-arquivo">Nenhum arquivo selecionado</span> 
                                     </div>
+
                                     <div class="error">
                                         <div class="circle-error"></div>
                                         <span>Error message</span>
                                     </div>
+
                                 </div>
                             </div>
                         </fieldset>
