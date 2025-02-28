@@ -423,9 +423,7 @@ textarea:invalid + .error-textarea {
 
     .term{
         display: flex;
-        flex-direction: row;
         gap: .75rem;
-        width: 100%;
         padding-bottom: .75rem;
 
         a{   
@@ -449,7 +447,13 @@ textarea:invalid + .error-textarea {
             cursor: pointer;
         }
 
-        
+        input:checked + .box {
+            background-image: url(../assets/icons/check.svg);
+            border: 1px solid var(--input-stroke);
+            background-size: cover;
+            background-position: center;
+            border: 1px solid var(--brand-light);    
+        }
        
     }
     
