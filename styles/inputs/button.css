@@ -1,0 +1,30 @@
+.button{
+    display: flex;
+    padding-top: 3rem;  
+    justify-content: end; 
+     
+    button { 
+        display: flex; 
+
+        cursor: pointer;
+
+        font: var(--body-md);
+        color: var(--text-heading); 
+        
+        gap: .75rem;
+        padding: 13px 20px;
+        
+        height: 3rem;
+        width: 11.0625rem;
+        
+        align-items: center;
+        
+        background-color: var(--brand-dark);
+        
+        border-radius: .5rem;
+        border: none;
+      }
+     
+
+}
+
