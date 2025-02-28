@@ -144,13 +144,17 @@ form{
     padding-left: 1rem;
     padding-top: 1rem;
     font: var(--body-md);
-    color: var(--input-placeholder);
+    color: var(--text-heading);
     width: 100%;
 }
 
 textarea::placeholder {
     font: var(--body-md);  
     color: var(--input-placeholder);
+}
+
+textarea:focus{
+    outline: 1px solid var(--brand-light);
 }
 
 
