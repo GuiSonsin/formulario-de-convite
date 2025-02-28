@@ -81,7 +81,12 @@
                             
                             <div>
                                 <label for="description">Descrição</label>
-                                <textarea name="description" id="description" rows="6" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                                <textarea name="description" id="description" rows="6" placeholder="Escreva sobre os detalhes do evento" required></textarea>
+
+                                <div class="error-textarea">
+                                    <div class="circle-error"></div>
+                                    <span>Error message</span>
+                                </div>
                             </div>
                         </fieldset>
                     </div>
