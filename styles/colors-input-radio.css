@@ -6,6 +6,10 @@
         border-radius: 100%;
         cursor: pointer; 
     }
+
+    & label:hover div{
+        border: 5px solid var(--shape-hover);    
+    }
 }
 
 .colors-section label .brand-light{
