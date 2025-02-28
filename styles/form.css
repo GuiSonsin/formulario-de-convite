@@ -192,6 +192,10 @@ textarea::placeholder {
     outline: 2px solid var(--brand-light); 
 }
 
+.card input:hover + label{
+    background-color: var(--shape-hover);
+}
+
 .style-card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
