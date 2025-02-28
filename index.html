@@ -37,18 +37,18 @@
 
                             <div class="flex-1">
                                 <label for="name">Título</label>
-                                <input placeholder="Nome do evento" type="text" name="name" id="name">
+                                <input placeholder="Nome do evento" type="text" name="name" id="name" autocomplete="off">
                             </div>
                             
                             <div class="grid">
                                 <div>
                                     <label for="begin">Início</label>
-                                    <input type="datetime-local" id="begin" name="begin">
+                                    <input type="datetime-local" id="begin" name="begin" autocomplete="off">
                                 </div>
                             
                                 <div>
                                     <label for="end">Fim</label>
-                                    <input type="datetime-local" name="end" id="end">
+                                    <input type="datetime-local" name="end" id="end" autocomplete="off">
                                 </div>
                             
                                 <div class="radio-type">
@@ -75,13 +75,13 @@
 
                                 <div>
                                     <label for="location">Local</label>
-                                    <input type="text" name="location" id="location" placeholder="Link ou endereço">
+                                    <input type="text" name="location" id="location" placeholder="Link ou endereço" autocomplete="off">
                                 </div>
                             </div>
                             
                             <div>
                                 <label for="description">Descrição</label>
-                                <textarea name="description" id="description" rows="6" placeholder="Escreva sobre os detalhes do evento" required></textarea>
+                                <textarea name="description" id="description" rows="6" placeholder="Escreva sobre os detalhes do evento" autocomplete="off" required></textarea>
 
                                 <div class="error-textarea">
                                     <div class="circle-error"></div>
@@ -342,7 +342,7 @@
                             </legend>  
                                 <div class="info-contact">
                                     <label for="name">Nome</label>
-                                    <input type="text" name="name" id="name" placeholder="Nome completo" required>
+                                    <input type="text" name="name" id="name" placeholder="Nome completo" autocomplete="off" required>
 
                                     <div class="error">
                                         <img src="assets/icons/circle-alert.svg" alt="ícone de alerta">
@@ -352,12 +352,12 @@
                                     <div class="mail-phone">
                                         <div>
                                             <label for="email">E-mail</label>
-                                            <input type="email" name="mail" id="mail" placeholder="exemplo@email.com">
+                                            <input type="email" name="mail" id="mail" placeholder="exemplo@email.com" autocomplete="off">
                                         </div>
 
                                         <div>
                                              <label for="phone">Telefone</label>
-                                             <input type="text" name="phone" id="phone" placeholder="(99) 99999-9999 ">
+                                             <input type="text" name="phone" id="phone" placeholder="(99) 99999-9999" autocomplete="off">
                                         </div>
                                     </div>
                                   
