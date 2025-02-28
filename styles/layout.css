@@ -60,7 +60,10 @@ main{
     gap: 3rem;
     overflow: auto;
 
-
+    input:focus{
+        outline: 1px solid var(--brand-light);
+    }
+    
     .main-container h2{
         font: var(--heading-md) ;
         color: var(--text-heading);
@@ -73,6 +76,12 @@ main{
         padding-top: 2.5rem;
         flex-direction: column;
         gap: 2.5rem;
+
+        input[type="text"]{
+            color: var(--text-heading);
+        }
+
+
 
         h3{
             color: var(--text-heading);
