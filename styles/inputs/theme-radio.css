@@ -84,8 +84,6 @@
         padding: 0.75rem;
     }
 
-    
-
     .img-photo{ 
         background-image: url(../../assets/icons/upload.svg);
         height: 1rem;
@@ -172,9 +170,6 @@
         grid-column-start: 2;
         grid-column-end: 4;
     }
-
-    
-
     
     .error{
         display: none;  
@@ -194,3 +189,7 @@
         } 
     }
 }
+
+  .photo:hover label{
+    background-color: var(--shape-hover);
+ }
