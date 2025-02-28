@@ -413,3 +413,44 @@ textarea:invalid{
 textarea:invalid + .error-textarea {
     display: flex;
 }
+
+.terms input{
+    display: none;    
+}
+
+.terms{ 
+    padding-top: 2.5rem; 
+
+    .term{
+        display: flex;
+        flex-direction: row;
+        gap: .75rem;
+        width: 100%;
+        padding-bottom: .75rem;
+
+        a{   
+            color: var(--brand-light);
+            text-decoration: underline;
+            text-decoration-color: var(--brand-light);
+            cursor: pointer; 
+        } 
+
+        p{
+            font: var(--body-sm);
+            color: var(--text-body);
+        }
+
+        .box{ 
+            border: 1px solid var(--input-stroke);
+            width: 1.25rem;
+            height: 1.25rem; 
+            border-radius: .25rem;
+            background-color: var(--input-base); 
+            cursor: pointer;
+        }
+
+        
+       
+    }
+    
+}
